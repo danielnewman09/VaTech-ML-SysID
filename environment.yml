@@ -1,0 +1,42 @@
+name: research
+channels:
+  - conda-forge
+  - danielnewman09
+  - defaults
+dependencies:
+  - blas=1.1=openblas
+  - cycler=0.10.0=py36_0
+  - freetype=2.8.1=0
+  - kiwisolver=1.0.1=py36_1
+  - libgfortran=3.0.0=0
+  - libpng=1.6.34=0
+  - matplotlib=2.2.2=py36_1
+  - numpy=1.14.2=py36_blas_openblas_200
+  - openblas=0.2.20=7
+  - pyparsing=2.2.0=py36_0
+  - python-dateutil=2.7.2=py_0
+  - pytz=2018.3=py_0
+  - scipy=1.0.1=py36_blas_openblas_200
+  - six=1.11.0=py36_1
+  - tornado=5.0.1=py36_1
+  - crawlab_plots=1.1.1=py36_0
+  - crawlab_toolbox=0.1.11=py36_0
+  - ca-certificates=2018.03.07=0
+  - certifi=2018.1.18=py36_0
+  - libcxx=4.0.1=h579ed51_0
+  - libcxxabi=4.0.1=hebd6815_0
+  - libedit=3.1=hb4e282d_0
+  - libffi=3.2.1=h475c297_4
+  - ncurses=6.0=hd04f020_2
+  - openssl=1.0.2o=h26aff7b_0
+  - pip=9.0.3=py36_0
+  - python=3.6.4=hc167b69_3
+  - readline=7.0=hc1231fa_4
+  - setuptools=39.0.1=py36_0
+  - sqlite=3.22.0=h3efe00b_0
+  - tk=8.6.7=h35a86e2_3
+  - wheel=0.31.0=py36_0
+  - xz=5.2.3=h0278029_2
+  - zlib=1.2.11=hf3cbc9b_2
+prefix: /Users/daniel/anaconda/envs/research
+
