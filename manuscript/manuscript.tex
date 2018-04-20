@@ -32,8 +32,6 @@
 %\rhead{ \footnotesize {\textit{Final} -- \today}}
 %\headsep=25pt
 
-\input{IC-Shapers.tex}
-\input{Design-Params.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -158,36 +156,39 @@ Curiously, dynamic interactions between the ablative catheter and blood flow are
 %
 \begin{figure}[t!] 
 \begin{center}
-\includegraphics[width = 2.7in]{Figures/Model} 
+\includegraphics[width = 2.7in]{Figures/Planar_Model} 
 \caption{Dynamic model of a two link flexible-arm manipulator} 
 \label{fig:model}
 \end{center}
 \vspace{0.1in}
 \end{figure}
 %
-The dynamic model used in this analysis is shown in Fig.~\ref{fig:model}. A flexible beam is assumed to be fixed at its base, save for rotation allowed about the $\bar{X}$-axis. The rotation of each element is designated by $\theta_{i,j}$, where $i$ is the axis and $j$ is the element number. As depicted in this Figure, each rotation is defined relative to the global coordinate frame. The generalized coordinates are arranged in the following form:
+The dynamic model used in this analysis is shown in Fig.~\ref{fig:model}. A flexible beam is assumed to be fixed at its base. The rotation of each element about the $\bar{Z}$-axis is designated by $\theta_{i}$, where $i$ is the element number. As depicted in this Figure, each rotation is defined relative to the global coordinate frame. The generalized coordinates are arranged in the following form:
 %
 \begin{equation}
 \label{eq:nodaldisp}
-Q_{(3n - 2) \times 1} = 
+Q_{(n \times 1} = 
 \begin{bmatrix}
- \theta_{x,1} & 
- \theta_{x,2} &
- \theta_{y,2} & 
- \theta_{z,2} &  
+ \theta_{1} & 
+ \theta_{2} &
  \dots & 
- \theta_{x,n} & 
- \theta_{y,n} & 
- \theta_{z,n}
+ \theta_{n} & 
 \end{bmatrix}^T.
 \end{equation}
 %
-Note the exclusion of the $y$ and $z$ rotations for the first element due to the fixed boundary condition. 
 
 \subsection{System Inputs}
 \label{sec:inputs}
 
-The input to the system is given as a torque about the $x_1$-axis applied to the $1_{st}$ element, $\tau_1$, and about the $z_n$-axis applied to the $n^{th}$ element, $\tau_2$. In addition, a known force field, $F$ acts on each element based on its position. This model serves as a first approximation of hydrodynamic forces. Force $F$ has components $f_x$, $f_y$, and $f_z$ defined in the inertial coordinate frame and yields resultant torques on the beam elements. This resultant torque is defined as:
+The input to the system is given as force applied to the distal tip of the $n^{th}$ element, $f$. In addition, a known velocity field, $u$ exerts drag forces on each element. This model serves as a first approximation of hemodynamic forces, where the drag force, $F_D$, exerted on a catheter element is given by:
+%
+\begin{equation}
+\label{eq:drag_force}
+F_D = \int_{0}^{l_i} \frac{1}{2}\rho u  C_d D \mathrm{d}l,
+\end{equation}
+%
+where $\rho$ is the mass density of blood, $C_d$ is the drag coefficient of the catheter, $D$ is the diameter of its cross-section, and $l$ is the projected length of the catheter element along the $\bar{X}$-axis. Note that this model ignores wall shear. 
+Force $F$ has components $f_x$, $f_y$, and $f_z$ defined in the inertial coordinate frame and yields resultant torques on the beam elements. This resultant torque is defined as:
 %
 \begin{equation}
 \label{eq:forced_torque}
@@ -286,7 +287,7 @@ B_{2(3n-2) \times 3} =
 where the nonzero elements of $B$ correspond to the control inputs $\tau_1$ and $\tau_2$, respectively. 
 
 \bibliographystyle{IEEEtran}
-\bibliography{Cardiac_Ablation}
+\bibliography{references}
 
 
 \end{document}
