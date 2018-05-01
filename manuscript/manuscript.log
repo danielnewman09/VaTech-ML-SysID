@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 APR 2018 23:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  23 APR 2018 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -850,28 +850,28 @@ sion > 4. Object streams disabled now.
 \@outlinefile=\write4
 \openout4 = `manuscript.out'.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 61.
-LaTeX Font Info:    Try loading font information for U+msa on input line 61.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 50.
+LaTeX Font Info:    Try loading font information for U+msa on input line 50.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 61.
+LaTeX Font Info:    Try loading font information for U+msb on input line 50.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 61.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 50.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 [][][]$[]$\OT1/ptm/m/n/8 Department of Me-chan-i-cal En-gi-neer-ing, Uni-ver-si
 ty of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 \OT1/ptm/m/n/8 Louisiana at Lafayette, Lafayette, Louisiana 70504 USA
  []
 
@@ -885,37 +885,20 @@ Missing character: There is no ù in font ptmr7t!
 
 
 ]
-[2]
-Underfull \hbox (badness 1629) in paragraph at lines 150--151
+Underfull \vbox (badness 1688) has occurred while \output is active []
+
+ [2]
+Underfull \hbox (badness 1629) in paragraph at lines 139--140
 []\OT1/ptm/m/n/10 Curiously, dy-namic in-ter-ac-tions be-tween the ab-la-tive
  []
 
-<Figures/Model.pdf, id=84, 381.425pt x 332.24126pt>
-File: Figures/Model.pdf Graphic file (type pdf)
- <use Figures/Model.pdf>
-Package pdftex.def Info: Figures/Model.pdf used on input line 159.
-(pdftex.def)             Requested size: 195.12877pt x 169.96802pt.
+<Figures/Planar_Model.pdf, id=84, 325.215pt x 307.1475pt>
+File: Figures/Planar_Model.pdf Graphic file (type pdf)
 
-Underfull \vbox (badness 2635) has occurred while \output is active []
-
- [3 <./Figures/Model.pdf>]
-Overfull \hbox (28.27676pt too wide) detected at line 181
-[]\OML/cmm/m/it/10 Q[] \OT1/cmr/m/n/10 = [][] \OML/cmm/m/it/10 :
- []
-
-
-! Package amsmath Error: Multiple \label's: label 'eq:m_y' will be lost.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 \label
-            {eq:m_z}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+<use Figures/Planar_Model.pdf>
+Package pdftex.def Info: Figures/Planar_Model.pdf used on input line 148.
+(pdftex.def)             Requested size: 195.12877pt x 184.28992pt.
+ [3 <./Figures/Planar_Model.pdf>]
 (./manuscript.bbl [4]
 Underfull \hbox (badness 10000) in paragraph at lines 170--173
 \OT1/ptm/m/n/8 hansenmedical . com / us / en / cardiac-[]arrhythmia / sensei-[]
@@ -934,25 +917,27 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-[5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
+[5
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
  (./manuscript.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: BF128C59E143FDDB7DE1C9FD336ECB47;829.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
  ) 
 Here is how much of TeX's memory you used:
  18727 strings out of 492995
- 348074 string characters out of 6132704
- 423424 words of memory out of 5000000
- 21851 multiletter control sequences out of 15000+600000
+ 348112 string characters out of 6132704
+ 422463 words of memory out of 5000000
+ 21852 multiletter control sequences out of 15000+600000
  44698 words of font info for 105 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  62i,10n,77p,1185b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -960,21 +945,21 @@ Here is how much of TeX's memory you used:
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/font
-s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
-w/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/u
-tmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
->
-Output written on manuscript.pdf (5 pages, 221409 bytes).
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/
+times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utm
+r8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on manuscript.pdf (5 pages, 221900 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
+ 241 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
  130 words of extra memory for PDF output out of 10000 (max. 10000000)
 

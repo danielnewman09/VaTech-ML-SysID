@@ -36,26 +36,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-\title{\LARGE \bf Eliminating Nonzero Initial States in \\Flexible Systems through Specified Insensitivity Input Shaping}
+\title{\LARGE \bf Modeling and Control of a Flexible Catheter for Cardiac Ablation}
 
-\author{Daniel Newman$^{1}$, Seong-Wook Hong$^{2}$, and Joshua Vaughan$^{1}$% <-this % stops a space
+\author{Daniel Newman$^{1}$, Charles Taylor$^{1}$, and Joshua Vaughan$^{1}$% <-this % stops a space
 \thanks{$^{1}$Department of Mechanical Engineering,
         University of Louisiana at Lafayette, Lafayette, Louisiana 70504 USA
         {\tt\small joshua.vaughan@louisiana.edu}}%
-\thanks{$^{2}$Kumoh National Institute of Technology,
-        Gumi, Gyeongbuk 730-701 Republic of Korea}%
 }
 
-
-
-%\author{Daniel Newman$^{1}$, Joshua Vaughan$^{1}$, and Seong-Wook Hong$^{2}$% <-this % stops a space
-%\thanks{*This work was not supported by any organization}% <-this % stops a space
-%\thanks{$^{1}$Department of Mechanical Engineering, University of Louisiana at Lafayette, Lafayette, Louisiana 70504, United States of America
-%    {\tt\small joshua.vaughan@louisiana.edu},
-%        $^{2}$Department of Mechatronics, Kumoh National Institute of Technology, Gumi, Gyeongbuk 730-701, Republic of Korea}
-%}%
     
-
 % make the title area
 \maketitle
 
@@ -167,7 +156,7 @@ The dynamic model used in this analysis is shown in Fig.~\ref{fig:model}. A flex
 %
 \begin{equation}
 \label{eq:nodaldisp}
-Q_{(n \times 1} = 
+Q_{n \times 1} = 
 \begin{bmatrix}
  \theta_{1} & 
  \theta_{2} &
@@ -180,66 +169,55 @@ Q_{(n \times 1} =
 \subsection{System Inputs}
 \label{sec:inputs}
 
-The input to the system is given as force applied to the distal tip of the $n^{th}$ element, $f$. In addition, a known velocity field, $u$ exerts drag forces on each element. This model serves as a first approximation of hemodynamic forces, where the drag force, $F_D$, exerted on a catheter element is given by:
+The input to the system is given as force applied to the distal tip of the $n^{th}$ element, $f$. In addition, a known velocity field, $\vec{U}$, exerts drag forces on each element. These drag forces generate moments at each hinge, causing deflection of the catheter. These moments are given by:
 %
 \begin{equation}
-\label{eq:drag_force}
-F_D = \int_{0}^{l_i} \frac{1}{2}\rho u  C_d D \mathrm{d}l,
+\vec{\gamma}_{n} = \int_{0}^{l_n} \vec{r}_n(x) \times \vec{f}_n(x) \mathrm{d}x,
 \end{equation}
 %
-where $\rho$ is the mass density of blood, $C_d$ is the drag coefficient of the catheter, $D$ is the diameter of its cross-section, and $l$ is the projected length of the catheter element along the $\bar{X}$-axis. Note that this model ignores wall shear. 
-Force $F$ has components $f_x$, $f_y$, and $f_z$ defined in the inertial coordinate frame and yields resultant torques on the beam elements. This resultant torque is defined as:
-%
-\begin{equation}
-\label{eq:forced_torque}
-\vec{\gamma}_{n} = \int_{0}^{l}\vec{r} \times \vec{F} \mathrm{d}l,
-\end{equation}
-%
-where $\vec{\gamma}_n$ gives the vector of torques applied about each axis within the $n$ cooordinate frame. The integral denotes the summation of each torque on the continuous length of the beam element as a function of its length, $l$. The vector $\vec{r}$ points along the beam within its local coordinate frame. Because each beam element is aligned with this frame, $\vec{r}$ takes the form:
+where:
 %
 \begin{equation}
 \label{eq:r_vector}
-\vec{r} = l \mathbf{\hat{i}} + 0 \mathbf{\hat{j}} + \mathbf{\hat{k}},
+\vec{r}(x)_n = x \mathbf{\hat{i}_n} + 0 \mathbf{\hat{j}_n} + \mathbf{\hat{k}_n},
 \end{equation}
 %
-the resolved force can only exert a moment about the $\mathbf{\hat{j}}$ and $\mathbf{\hat{k}}$ axes in this model. The resulting total exogenous input is given by:
+is a displacement vector pointing from the element origin to a point along its length, $\vec{f}_n(x)$ is the location-dependent force vector due to hemodynamic forces, and $\vec{\gamma}_{n}$, is the resultant torque acting at the element origin. 
+
+The drag induced by hemodynamic flow is:
+%
+\begin{equation}
+\vec{f}_n(x,t) = \frac{1}{2}\rho C_d D 
+\begin{bmatrix}
+\cos{\theta_n} & -\sin{\theta_n} \\
+\sin{\theta_n} & \cos{\theta_n}
+\end{bmatrix}
+\vec{U}(x,t),
+\end{equation}
+where $\rho$ is the mass density of blood, $C_d$ is the drag coefficient of the catheter, $D$ is the diameter of its cross-section, and $\vec{U}(x)$ is the flow field, given in the inertial coordinate frame. Note that this model ignores wall shear. The resulting total exogenous input is therefore given by:
 %
 \begin{equation}
 \label{eq:Gamma}
-\Gamma_{(3*n - 2) \times 1} = 
+\Gamma_{n \times 1} = 
 \begin{bmatrix}
- 0 & 
- 0 &
- \gamma_{y,2} & 
- \gamma_{z,2} &  
- \dots & 
- 0 & 
- \gamma_{y,n} & 
- \gamma_{z,n}
+\gamma_{2} &  
+\dots & 
+\gamma_{n-1} & 
+\gamma_{n}
 \end{bmatrix}^T,
 \end{equation}
 %
-where the shape is once again dictated by the nature of the generalized coordinates, (\ref{eq:nodaldisp}).
+where the torque applied to the first element is ignored due to the fixed boundary condition.
 
 \subsection{Internal Moments}
 \label{sec:internal_forces}
 
-Aside from the rotation of the first element, $\theta_{x,1}$, each generalized coordinate has an associated internal moment based on its material properties. An axial torque resists rotation about the $x_n$-axis by the following relation:
-%
-\begin{equation}
-\label{eq:m_x}
-M_{x,n} = \frac{GJ (\theta_{x,n} - \theta_{x,n-1})}{l_n + l_{n-1}}.
-\end{equation}
-%
-
-Additionally, each element has an internal moment related to bending, given by:
+Each generalized coordinate also has an associated internal moment based on its material properties. The internal bending moment for each element is given by:
 %
 \begin{equation}
 \begin{aligned}
-\label{eq:m_y}
-M_{y,n} &= \frac{EI (\theta_{y,n} - \theta_{y,n-1})}{l_n + l_{n-1}}, \\
 \label{eq:m_z}
-M_{z,n} &= \frac{EI (\theta_{z,n} - \theta_{z,n-1})}{l_n + l_{n-1}}. \\
+M_{n} &= \frac{EI (\theta_{n} - \theta_{n-1})}{l_n + l_{n-1}}, \\
 \end{aligned}
 \end{equation}
 %
@@ -248,7 +226,7 @@ These moments are found by discretizing standard Euler-Bernoulli beam theory.
 \subsection{Equations of Motion}
 \label{sec:equationsmotion}
 
-The resulting equations of motion were created by Kane's method using the Python SymPy module. The state-space representation of the dynamic system is given by:
+The resulting equations of motion were created by Kane's method using the Python SymPy module. When linearized about $Q=\dot{Q}=0$, the state-space representation of the dynamic system is given by:
 %
 \begin{equation}
 \label{eq:eqmotion}
@@ -257,34 +235,40 @@ The resulting equations of motion were created by Kane's method using the Python
  \ddot{Q}
 \end{bmatrix}
 =
-\begin{bmatrix}
- 0 & I \\
- M^{-1} K & 0
-\end{bmatrix} 
+A
 \begin{bmatrix}
  Q\\
  \dot{Q}
 \end{bmatrix}
 +
-\begin{bmatrix}
-0 \\
-\Gamma
-\end{bmatrix}
- + B u,
+B f_{in}
++
+\Omega \Gamma
+
 \end{equation} 
 %
-where,
+where $A$ and $B$ are the linearized state transition and input matrices, and $\Omega$ is the disturbance input matrix.  
+
+Because (\ref{eq:eqmotion}) is linearized, it will degrade in performance at large tip deflections. This degradation is increased due to the use of Euler-Bernoulli beam theory, which is strictly valid for small deflections. However, this model serves as a foundation from which dynamic and control properties can be evaluated.
+
+\section{Control Method}
+\label{sec:control}
+
+The control objective for this initial study is to hold the catheter endpoint steady at a specified point in $\bar{X}$. Due the the external disturbance induced by blood flow, a model predictive control (MPC) approach will be used to maintain accurate positioning. The general formulation for MPC of a linear system is realized by discretizing the system:
 %
 \begin{equation}
-\label{eq:B_matrix}
-B_{2(3n-2) \times 3} = 
-\begin{bmatrix}
-0_{3n - 2 \times 1} & 1 & 0_{(3n - 1) \times 1} \\
-0_{6n - 2\times 1} & 0 & 1
-\end{bmatrix}^T,
+\begin{align}
+\label{eq:discrete-ss}
+x_{n+k} &= A x_n + B u_k + \Omega \Gamma_k\\
+y_n &= C x_k,
+\end{align}
 \end{equation}
 %
-where the nonzero elements of $B$ correspond to the control inputs $\tau_1$ and $\tau_2$, respectively. 
+and determining the correct input, $u_k$ which minimizes a quadratic cost function:
+%
+\begin{equation}
+
+
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
