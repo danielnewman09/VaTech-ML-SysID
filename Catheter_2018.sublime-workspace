@@ -839,6 +839,10 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/dnewman/Documents/Github/Catheter-Ablation"
+	],
 	"file_history":
 	[
 		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Papers/ACC_RobustIC_2018/.gitignore",
