@@ -51,7 +51,7 @@
 % As a general rule, do not put math, special symbols or citations
 % in the abstract
 \begin{abstract}
-The control of human-operated flexible systems is a problem that has generated significant research. A variety of methods have been proposed to eliminate disturbances to flexible systems. By simplifying disturbances by representing them as impulses that generate initial conditions, some researchers have used impulse-based command generation to reduce existing vibration. This approach closely resembles the common open-loop input shaping method. However, existing literature does not thoroughly account for robustness requirements. This paper expands on the concept of initial condition input shaping and proposes a method of providing robustness to variations in natural frequency. The concept of Specified Insensitivity is used to generate these robust input shapers. Experimental results are provided which support these findings.
+Atrial fibrillation is a condition in which the cardiovascular substrate exhibits irregular elctrophysiological activity, causing improper firing of the cardiovascular tissue. To ease symptoms from this condition, catheter ablation is increasingly used to isolate regions from which these irregular signals originate. The current state-of-the-art in catheter ablation requires a clinician to manually control the positioning of a flexible catheter within the heart chambers in the presence of significant disturbances due to the motion of the cardiovascular tissue as well as hemodynamic forces. As a result, position control of the catheter tip is nearly impossible. In order to improve the precision of such interventions, better control methods are needed. This work proposes a model predictive control approach which can be used to augment the control imparted by the clinician to stabilize the catheter in the presence of the aforementioned disturbances. 
 \end{abstract}
 
 % creates the second title. It will be ignored for other modes.
@@ -122,12 +122,12 @@ Another similar system is the SenseiRobotic Catheter System by Hansen Medical \c
 Academic research is also being conducted on providing remote manipulation of surgical catheters by various means. One group replicated the traditional catheter controls into a remotely operated robotic system \cite{thakur:09a}. Another group created a robotic catheter system with force feedback using the Phantom omni and demonstrated its use in experimental trials \cite{xiao2012robotic}. A similar teleoperated robotic device intended for neurosurgery was designed and evaluated by a small group of surgeons \cite{srimathveeravalli:10a}. A surgeon with extensive catheter experience was able to use a remote robotic system more efficiently than manual manipulation during \textit{ex-vivo} testing of an animal heart \cite{cercenelli:07a}. 
 
 
-\section{Modeling}
+\subsection{Modeling}
 \label{sec:modeling}
 
 A number of researchers have analyzed the kinematics of cardiac catheters. In most cases, the primary consideration is the bending and relaxation of the curved tip. A kinematic approach based on Denavit-Hartenberg nomenclature has been developed and experimentally compared to real catheter motion \cite{ganji:09a}. Catheter behavior in the presence of nonlinearities such as friction and backlash are routinely considered \cite{hasanzadeh:17a}.
 
-\section{Control}
+\subsection{Control}
 \label{sec:Control}
 
 Several research groups have created various control algorithms to interact with the clinician. In one instance, proportional-derivative control with haptic feedback was used to enable teleoperation of a catheter system \cite{srimathveeravalli:10a}. This system was evaluated by clinicians in a simulated \textit{in-vivo} environment. In another study, a robotic platform was designed to accept generic catheters and accurately position them with minimal lag \cite{thakur:09a}. 
@@ -244,7 +244,6 @@ A
 B f_{in}
 +
 \Omega \Gamma
-
 \end{equation} 
 %
 where $A$ and $B$ are the linearized state transition and input matrices, and $\Omega$ is the disturbance input matrix.  
@@ -255,24 +254,50 @@ Because (\ref{eq:eqmotion}) is linearized, it will degrade in performance at lar
 \label{sec:control}
 
 The control objective for this initial study is to hold the catheter endpoint steady at a specified point in $\bar{X}$. Due the the external disturbance induced by blood flow, a model predictive control (MPC) approach will be used to maintain accurate positioning. The general formulation for MPC of a linear system is realized by discretizing the system:
-%
-\begin{equation}
-\begin{align}
-\label{eq:discrete-ss}
-x_{n+k} &= A x_n + B u_k + \Omega \Gamma_k\\
-y_n &= C x_k,
-\end{align}
-\end{equation}
-%
-and determining the correct input, $u_k$ which minimizes a quadratic cost function:
-%
-\begin{equation}
 
+\begin{equation}
+x_{k+1} = A x_k + B u_k + \Omega \Gamma_k
+\label{eq:discrete_ss}
+\end{equation}
+
+and determining the correct input, $u_k$ which minimizes a quadratic cost function:
+
+\begin{equation}
+\label{eq:costfunction}
+J = \sum_{i=k}^{k+N} Q (y_d - y_i)^2 + R (u_i - u_{i-1})^2,
+\end{equation}
+
+where $N$ is the prediction horizon. In this cost function, the predicted error in the outputs, $y_i$, are evaluated relative to desired values, $y_d$. These values are weighted by the state weights, $Q$. Similarly, the change in controller effort from the previous value is penalized and scaled by the input weight, $R$. The input cost is formulated in this way because the actuator effort is not expected to go to zero in the presence of disturbances and desired displacements. Rather, to follow a smooth trajectory, the change in input from one time increment to another should be minimal. 
+
+The output of the catheter model which should be controlled is the position of its tip. Using the model presented in this work, the position is given by:
+
+\begin{equation}
+\label{eq:y-output}
+y = \sum_{i=0}^{n} l_i \sin{\theta_i},
+\end{equation}
+
+and the derivative of the position is:
+
+\begin{equation}
+\label{eq:y-dot-output}
+\dot{y} = \sum_{i=0}^n l_i \dot{\theta}_i \cos{\theta_i}. 
+\end{equation}
+
+It is further assumed that the exogeneous input from the hemodynamic forces can be accurately predicted and incorporated into the MPC framework. Therefore, \eqref{eq:discrete_ss} is used as a constraint for the controller. In addition, the actuator effort is limited below the maximum available level. In total, the optimization problem for the model predictive controller takes the form:
+
+\begin{equation}
+\begin{aligned}
+\label{eq:posconstraints}
+& \underset{t}{\text{minimize}}
+& &  \sum_{i=k}^{k+N} Q (y_d - y_i)^2 + R (u_i - u_{i-1})^2\\
+& \text{subject to}
+& & x_{k+1} = A x_k + B u_k + \Omega \Gamma_k,\\
+&&&  u_k \leq u_{max}.\\
+\end{aligned}
 \end{equation}
 
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
-
 
 \end{document}
