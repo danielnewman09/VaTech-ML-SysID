@@ -58,7 +58,9 @@ sequentially in a way that can be reproduced.
 
 ## Notebooks
 
+* [Full-Analysis.ipynb](http://nbviewer.jupyter.org/github/danielnewman09/Catheter-Ablation/blob/master/code/notebooks/Full-Analysis.ipynb):
+  Derive the full nonlinear model and compare it to a linearized version. The functions here are incorporated into the package to allow for easy replication across different scripts.
 * [Create-Model.ipynb](http://nbviewer.jupyter.org/github/danielnewman09/Catheter-Ablation/blob/master/code/notebooks/Create-Model.ipynb):
   Derive the full nonlinear model and compare it to a linearized version. The functions here are incorporated into the package to allow for easy replication across different scripts.
-* [Control-Analysi.ipynb](http://nbviewer.jupyter.org/github/danielnewman09/Catheter-Ablation/blob/master/code/notebooks/Control-Analysis.ipynb):
+* [Control-Analysis.ipynb](http://nbviewer.jupyter.org/github/danielnewman09/Catheter-Ablation/blob/master/code/notebooks/Control-Analysis.ipynb):
   Create the model predictive controller and analyze its performance relative to PD control.
