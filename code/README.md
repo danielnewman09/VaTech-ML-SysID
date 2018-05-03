@@ -2,8 +2,7 @@
 
 The code is divided between Python modules in `mypackage` and Jupyter notebooks
 in `notebooks`. The modules implement the methodology and code that is reused
-in different applications. This code is tested using `pytest` with the test
-code in `tests`. The notebooks perform the data analysis and processing and
+in different applications. The notebooks perform the data analysis and processing and
 generate the figures for the paper.
 
 The `Makefile` automates all processes related to executing code.
@@ -12,6 +11,7 @@ generating the final figures:
 
     make all
 
+*Note: This is an incredibly expensive call to make. It will take a while.*
 
 ## Python package
 
@@ -58,7 +58,7 @@ sequentially in a way that can be reproduced.
 
 ## Notebooks
 
-* [estimate-hawaii-trend.ipynb](http://nbviewer.jupyter.org/github/pinga-lab/paper-template/blob/master/code/notebooks/estimate-hawaii-trend.ipynb):
-  Calculate a linear trend for the temperature data of Hawaii.
-* [figure-hawaii-trend.ipynb](http://nbviewer.jupyter.org/github/pinga-lab/paper-template/blob/master/code/notebooks/figure-hawaii-trend.ipynb):
-  Make a figure of the estimated trend for the paper.
+* [Create-Model.ipynb](http://nbviewer.jupyter.org/github/danielnewman09/Catheter-Ablation/blob/master/code/notebooks/Create-Model.ipynb):
+  Derive the full nonlinear model and compare it to a linearized version. The functions here are incorporated into the package to allow for easy replication across different scripts.
+* [Control-Analysi.ipynb](http://nbviewer.jupyter.org/github/danielnewman09/Catheter-Ablation/blob/master/code/notebooks/Control-Analysis.ipynb):
+  Create the model predictive controller and analyze its performance relative to PD control.

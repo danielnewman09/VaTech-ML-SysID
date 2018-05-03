@@ -5,19 +5,9 @@ Daniel Newman,
 Joshua Vaughan,
 Charles Taylor
 
-This paper has been submitted for publication in *Some Journal*.
-
-> Brief description of what this paper is about (2-3 sentences). Include a
-> figure as well with the main result of your paper.
-
-![](manuscript/figures/hawaii-trend.png)
-
-*Caption for the example figure with the main results.*
-
-
 ## Abstract
 
-> This paper is a work-in-progress
+> Atrial fibrillation is a condition in which the cardiovascular substrate exhibits irregular elctrophysiological activity, causing improper firing of the cardiovascular tissue. To ease symptoms from this condition, catheter ablation is increasingly used to isolate regions from which these irregular signals originate. The current state-of-the-art in catheter ablation requires a clinician to manually control the positioning of a flexible catheter within the heart chambers in the presence of significant disturbances due to the motion of the cardiovascular tissue as well as hemodynamic forces. As a result, position control of the catheter tip is nearly impossible. In order to improve the precision of such interventions, better control methods are needed. This work proposes a model predictive control approach which can be used to augment the control imparted by the clinician to stabilize the catheter in the presence of the aforementioned disturbances. 
 
 ## Software implementation
 
@@ -33,17 +23,12 @@ See the `README.md` files in each directory for a full description.
 
 ## Getting the code
 
-> This paper is a work-in-progress in the CRAWLAB. Therefore, these files are not publically available.
-
 You can download a copy of all the files in this repository by cloning the
 [git](https://git-scm.com/) repository:
 
-    git clone https://github.com/danielnewman09/.git
+    git clone https://github.com/danielnewman09/Catheter-Ablation.git
 
-or [download a zip archive](https://github.com/danielnewman09/master.zip).
-
-A copy of the repository is also archived at *insert DOI here*
-
+or [download a zip archive](https://github.com/danielnewman09/Catheter-Ablation/archive/master.zip).
 
 ## Dependencies
 
@@ -116,5 +101,4 @@ use and modify the code, without warranty, so long as you provide attribution
 to the authors. See `LICENSE.md` for the full license text.
 
 The manuscript text is not open source. The authors reserve the rights to the
-article content, which is currently submitted for publication in the
-JOURNAL NAME.
+article content.

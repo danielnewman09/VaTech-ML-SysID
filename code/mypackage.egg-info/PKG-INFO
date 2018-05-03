@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: mypackage
+Version: 1.0
+Summary: UNKNOWN
+Home-page: https://github.com/danielnewman09/Catheter-Ablation
+Author: Daniel Newman
+Author-email: danielnewman09@gmail.com
+License: BSD License
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: Any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: BSD License
