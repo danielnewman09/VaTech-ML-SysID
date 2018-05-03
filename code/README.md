@@ -59,7 +59,7 @@ sequentially in a way that can be reproduced.
 ## Notebooks
 
 * [Full-Analysis.ipynb](http://nbviewer.jupyter.org/github/danielnewman09/Catheter-Ablation/blob/master/code/notebooks/Full-Analysis.ipynb):
-  Derive the full nonlinear model and compare it to a linearized version. The functions here are incorporated into the package to allow for easy replication across different scripts.
+  This notebook is an experimental sandbox for my modeling and control methods. I don't expect it to be exceptionally readable.
 * [Create-Model.ipynb](http://nbviewer.jupyter.org/github/danielnewman09/Catheter-Ablation/blob/master/code/notebooks/Create-Model.ipynb):
   Derive the full nonlinear model and compare it to a linearized version. The functions here are incorporated into the package to allow for easy replication across different scripts.
 * [Control-Analysis.ipynb](http://nbviewer.jupyter.org/github/danielnewman09/Catheter-Ablation/blob/master/code/notebooks/Control-Analysis.ipynb):
