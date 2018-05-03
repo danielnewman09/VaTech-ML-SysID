@@ -2,8 +2,8 @@
 
 by
 Daniel Newman,
-Joshua Vaughan,
-Charles Taylor
+Charles Taylor,
+Joshua Vaughan
 
 ## Abstract
 
