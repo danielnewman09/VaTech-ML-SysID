@@ -1,0 +1,1366 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"get_xy_coords"
+			],
+			[
+				"unshaped_exp",
+				"unshaped_exp_response"
+			],
+			[
+				"zvic_exp",
+				"zvic_exp_response"
+			],
+			[
+				"des",
+				"des_luff"
+			],
+			[
+				"siic",
+				"siic_amp_interp"
+			],
+			[
+				"zvic_amp",
+				"zvic_amp_interp"
+			],
+			[
+				"Y",
+				"Y2_LABEL"
+			],
+			[
+				"Y_M",
+				"Y_MIN"
+			],
+			[
+				"T",
+				"TRANSPARENT"
+			],
+			[
+				"tr",
+				"trolley_image"
+			],
+			[
+				"freq",
+				"freq_hz"
+			],
+			[
+				"Pay",
+				"PAYLOAD_OFFSET"
+			],
+			[
+				"OFF",
+				"ORIGN_OFFSET"
+			],
+			[
+				"scur",
+				"scurve_shaper"
+			],
+			[
+				"modeled",
+				"modeled_step_deriv"
+			],
+			[
+				"troll",
+				"trolley_offset_y"
+			],
+			[
+				"trolley_",
+				"trolley_offset_x"
+			],
+			[
+				"trolley_offset",
+				"trolley_offset_y"
+			],
+			[
+				"trolley",
+				"trolley_offset_x"
+			],
+			[
+				"unshaped_exp_",
+				"unshaped_exp_angle"
+			],
+			[
+				"smooth_",
+				"smooth_polyshape"
+			],
+			[
+				"start",
+				"startstep_time"
+			],
+			[
+				"siic_exp",
+				"siic_exp_response"
+			],
+			[
+				"unshaped",
+				"unshaped_exp_times"
+			],
+			[
+				"unshape",
+				"unshaped_exp_times"
+			],
+			[
+				"newman",
+				"newman_command"
+			],
+			[
+				"const",
+				"constraints"
+			],
+			[
+				"rotated",
+				"rotated_coords"
+			],
+			[
+				"rotate",
+				"rotated_coords"
+			],
+			[
+				"kalman",
+				"kalman_estimate"
+			],
+			[
+				"kalm",
+				"kalman_gain"
+			],
+			[
+				"C_lower",
+				"C_lowerright"
+			],
+			[
+				"thetadot",
+				"theta0dot_z"
+			],
+			[
+				"ss_re",
+				"ss_response_deriv"
+			],
+			[
+				"marker",
+				"marker_weight"
+			],
+			[
+				"imag",
+				"imag_roots"
+			],
+			[
+				"opt",
+				"opt_condition"
+			],
+			[
+				"Tacc",
+				"Tacc_array"
+			],
+			[
+				"percent",
+				"percent_settle"
+			],
+			[
+				"subo",
+				"subopt_shaper"
+			],
+			[
+				"Omegas",
+				"Omegas_damp"
+			],
+			[
+				"K_",
+				"K_damped"
+			],
+			[
+				"Zeta",
+				"Zeta_cons"
+			],
+			[
+				"thetad",
+				"thetad_dot"
+			],
+			[
+				"x0",
+				"x0_dot"
+			],
+			[
+				"theta0",
+				"theta0_dot"
+			],
+			[
+				"diff",
+				"diff_metric"
+			],
+			[
+				"sub_shaped",
+				"sub_shaped_effort1"
+			],
+			[
+				"subopt_",
+				"subopt_shaper2"
+			],
+			[
+				"subopt",
+				"subopt_shaper1"
+			],
+			[
+				"subop",
+				"subopt_shaper1"
+			],
+			[
+				"o",
+				"opt_condition"
+			],
+			[
+				"max",
+				"max_gains"
+			],
+			[
+				"nat_Fre",
+				"nat_freq_to_total"
+			],
+			[
+				"tau",
+				"tau_max"
+			],
+			[
+				"tua",
+				"tau_max"
+			],
+			[
+				"t_",
+				"t_step"
+			],
+			[
+				"unshaped_theta",
+				"unshaped_theta1_vel"
+			],
+			[
+				"parameter",
+				"parameter_vals"
+			],
+			[
+				"nat_freq",
+				"nat_freq_to_total"
+			],
+			[
+				"damp_",
+				"damp_to_total"
+			],
+			[
+				"set",
+				"set_trace"
+			],
+			[
+				"desired",
+				"desired_end"
+			],
+			[
+				"shaped",
+				"shaped_effort2"
+			],
+			[
+				"gain",
+				"gain_multiplier"
+			],
+			[
+				"g",
+				"gain_multiplier"
+			],
+			[
+				"m",
+				"m_2"
+			],
+			[
+				"phi_1",
+				"phi_1_prime"
+			],
+			[
+				"phi_2",
+				"phi_2_prime"
+			],
+			[
+				"delta22",
+				"delta22_dot"
+			],
+			[
+				"v_mom",
+				"v_2_moment"
+			],
+			[
+				"w_",
+				"w_2_moment"
+			],
+			[
+				"w_momen",
+				"w_1_moment"
+			],
+			[
+				"feed",
+				"feedback_step"
+			],
+			[
+				"ic_init",
+				"ic_init_vel"
+			],
+			[
+				"ic",
+				"ic_ampshift"
+			],
+			[
+				"tacc_",
+				"tacc_norm"
+			],
+			[
+				"t",
+				"tacc_step"
+			],
+			[
+				"line",
+				"linear_response"
+			],
+			[
+				"top",
+				"top-to-bottom"
+			],
+			[
+				"shifted",
+				"shifted_amp"
+			],
+			[
+				"dig",
+				"dig_shaper"
+			],
+			[
+				"design",
+				"design_freq"
+			],
+			[
+				"desig",
+				"design_freq"
+			],
+			[
+				"tacc",
+				"tacc"
+			],
+			[
+				"pause",
+				"pause_duration_step"
+			],
+			[
+				"shaper",
+				"shaper_amps"
+			],
+			[
+				"the",
+				"theta_2_diff"
+			],
+			[
+				"pulse",
+				"pulse_response"
+			],
+			[
+				"impulse",
+				"impulse_response"
+			],
+			[
+				"de",
+				"detected_phase"
+			],
+			[
+				"modeled_",
+				"modeled_freq"
+			],
+			[
+				"ic_in",
+				"ic_init_pos"
+			],
+			[
+				"rand",
+				"randnum_counter"
+			],
+			[
+				"binary",
+				"binary_genome"
+			],
+			[
+				"rand_",
+				"rand_numbers"
+			],
+			[
+				"deltaE_a",
+				"Delta_E_Avg"
+			],
+			[
+				"print",
+				"print_rand_l_boltz"
+			],
+			[
+				"rand_nums",
+				"rand_nums_used"
+			],
+			[
+				"fitn",
+				"fitness_fraction"
+			],
+			[
+				"num",
+				"num_variables"
+			],
+			[
+				"se",
+				"set_trace"
+			],
+			[
+				"A",
+				"Absolute"
+			],
+			[
+				"pop",
+				"pop_num"
+			],
+			[
+				"norm",
+				"normalized_acc"
+			],
+			[
+				"Startt",
+				"Startt"
+			],
+			[
+				"delta",
+				"delta_gamma"
+			],
+			[
+				"kp",
+				"kp_guess_shaped"
+			],
+			[
+				"p",
+				"peak_effort"
+			],
+			[
+				"k",
+				"k_d"
+			],
+			[
+				"ze",
+				"zeta_omega_1"
+			],
+			[
+				"m1_",
+				"m1_disturbance"
+			],
+			[
+				"real",
+				"real_kp100"
+			],
+			[
+				"t_shaper",
+				"t_shaper_2"
+			],
+			[
+				"step",
+				"step_input"
+			],
+			[
+				"obj",
+				"obj_deriv"
+			],
+			[
+				"ob",
+				"obj_deriv"
+			],
+			[
+				"omeg",
+				"omega_n_hz"
+			],
+			[
+				"tick",
+				"tick_increment"
+			],
+			[
+				"Start",
+				"StartTime"
+			],
+			[
+				"shap",
+				"shaped_step_response"
+			],
+			[
+				"optimi",
+				"optimized_input"
+			],
+			[
+				"exp",
+				"experimental_args"
+			],
+			[
+				"desi",
+				"design_freq"
+			],
+			[
+				"mod",
+				"modeled_freq"
+			],
+			[
+				"siic_end",
+				"siic_end_input"
+			],
+			[
+				"zvic",
+				"zvic_deleting_indexes"
+			],
+			[
+				"delay",
+				"delay_steps"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/thesis.tex",
+			"settings":
+			{
+				"buffer_size": 3150,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template/README.md",
+			"settings":
+			{
+				"buffer_size": 358,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template/UL_Lafayette_Template/ULL_thesis_template.tex",
+			"settings":
+			{
+				"buffer_size": 3992,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				],
+				[
+					"Packages/User/Latex.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"PdfLaTeX"
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX (TikZ).sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX (TikZ).sublime-build",
+					"Clean up Files"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX (TikZ).sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/User/Bibtext.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Bibtext.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/markdown-to-pdf.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Markdown_To_PDF.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Markdown_To_PDF.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/markdown-to-pdf.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Markdown_To_PDF.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PDF.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PDF_1.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PDF_1.sublime-build",
+					"Markdown to latex"
+				],
+				[
+					"Packages/User/PDF_1.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/Markdown_To_PDF.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 329.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pandoc",
+				"Pandoc"
+			],
+			[
+				"latex",
+				"LaTeXTools: Check system"
+			],
+			[
+				"pan",
+				"Pandoc"
+			],
+			[
+				"",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pdf",
+				"Pandoc: Convert a Pandoc file to PDF"
+			],
+			[
+				"pa",
+				"Pandoc: Convert a Pandoc file to PDF"
+			],
+			[
+				"syntax",
+				"Set Syntax: Markdown"
+			],
+			[
+				"spandoc",
+				"Spandoc: Palette"
+			],
+			[
+				"PACKA",
+				"Package Control: Install Package"
+			],
+			[
+				"mdpd",
+				"Build With: markdown-to-pdf"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: add ",
+				"Package Control: Add Repository"
+			],
+			[
+				"latextools",
+				"LaTeXTools: Reset user settings to default"
+			],
+			[
+				"package Control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/dnewman/Documents/Github/Catheter-Ablation",
+		"/home/dnewman/Documents/Github/Catheter-Ablation/code",
+		"/home/dnewman/Documents/Github/Catheter-Ablation/data",
+		"/home/dnewman/Documents/Github/Catheter-Ablation/manuscript",
+		"/home/dnewman/Documents/Github/Catheter-Ablation/results"
+	],
+	"file_history":
+	[
+		"/home/dnewman/Documents/Github/Catheter-Ablation/README.md",
+		"/home/dnewman/Documents/Github/Catheter-Ablation/.gitignore",
+		"/home/dnewman/Documents/Github/Catheter-Ablation/manuscript/manuscript.tex",
+		"/home/dnewman/Documents/Github/Catheter-Ablation/code/README.md",
+		"/home/dnewman/Documents/Github/Personal-Code/Professional-Resume/Latex/resume.tex",
+		"/home/dnewman/Documents/Github/Catheter-Ablation/results/README.md",
+		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/gatech-thesis.cls",
+		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/epigraph.tex",
+		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/thesis.tex",
+		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/ULL-style.sty",
+		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/chapter2.tex",
+		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/chapter3.tex",
+		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/chapter4.tex",
+		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Conference Papers/CCTA - Nonzero Shaping Boom Crane - 2017/CCTA_NonzeroShapingBoomCrane_2017.tex",
+		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/dedication.tex",
+		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/biosketch.tex",
+		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/chapter1.tex",
+		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Conference Papers/ACC_RobustIC_2018/ACC_RobustIC_2018.tex",
+		"/home/dnewman/Documents/Github/Catheter-Ablation/code/mypackage/catheter_utils.py",
+		"/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template/UL_Lafayette_Template/chapter1.tex",
+		"/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template/UL_Lafayette_Template/ULL_thesis_template.tex",
+		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Conference Papers/CCTA - Nonzero Shaping Boom Crane - 2017/bibliography.bib",
+		"/home/dnewman/Documents/Github/Angular-Tinkering/Angular-test/app/view2/view2.html",
+		"/home/dnewman/Documents/Github/Catheter-Ablation/code/setup.py",
+		"/home/dnewman/Documents/Github/Catheter-Ablation/environment.yml",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Papers/ACC_RobustIC_2018/.gitignore",
+		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Papers/Catheter_Ablation/ACC_RobustIC_2018.sublime-project",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Papers/ACC_RobustIC_2018/environment.yml",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Papers/ACC_RobustIC_2018/manuscript/manuscript.tex",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Papers/ACC_RobustIC_2018/code/setup.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Papers/ACC_RobustIC_2018/manuscript/Makefile",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Cardiac Project/Simple_Modeling/2d_beam.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Papers/ACC_RobustIC_2018/README.md",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Conference Papers/ACC_RobustIC_2018/ACC_RobustIC_2018.tex",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/plot_response_exp.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Python Modules/ic_impulse.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/overlay_videos.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Python Modules/ic_linear.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Cardiac Project/Simple_Modeling/A_Matrix.npy",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/chapter4.tex",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/exp_Sens.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/track_cherrypicker.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/show_cherrypicker_pin.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/Simulate_Sens.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Python Modules/Generate_Plots.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/sim_sens.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/input_gen.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/InitialCondition/create_siic_shaper.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/record_camera_live.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/Amplitudes_0.35m/Unshaped_4deg.csv",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/plot_abs_amps_expvssim.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/input_gen_track_cherrypicker.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/Data/Amplitudes/SI-IC_4deg.csv",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Korea/create_siic_shaper.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Python Modules/Boom_Crane.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/Data/Amplitudes/Unshaped_4deg.csv",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/Data/Amplitudes/ZV-IC_4deg.csv",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Cardiac Project/Simple_Modeling/beam_model.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/Concurrent/twolink_LQR.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/Concurrent/twolink_optimized.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/chapter3.tex",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/Amplitudes/SI-IC_4deg.csv",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/Amplitudes/Unshaped_4deg.csv",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/DSCC_BoomCrane_2018/Amplitudes/ZV-IC_4deg.csv",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/Concurrent/lqr_optimized_crane.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/For_Presentation/simple_crane_trapezoidal.py",
+		"/Users/daniel/Github/Personal-Code/angular-seed/app/view1/view1.html",
+		"/Users/daniel/Github/Personal-Code/angular-seed/app/view1/css/flexslider.css",
+		"/Users/daniel/Github/Personal-Code/angular-seed/app/view3/view3.html",
+		"/Users/daniel/Github/Personal-Code/angular-seed/app/app.js",
+		"/Users/daniel/Github/Personal-Code/angular-seed/app/index.html",
+		"/Users/daniel/Github/Personal-Code/Node_Tests/app.js",
+		"/Users/daniel/Github/Personal-Code/angular-seed/app/view3/view3_test.js",
+		"/Users/daniel/Github/Personal-Code/angular-seed/app/view3/view3.js",
+		"/Users/daniel/Github/Personal-Code/angular-seed/app/index-async.html",
+		"/Users/daniel/Github/Personal-Code/CV Resume Cover Letter/Cover Letters/L3 Technologies/cover_letter.tex",
+		"/Users/daniel/Github/Personal-Code/angular-seed/app/view1/css/main.css",
+		"/Users/daniel/Github/Personal-Code/angular-seed/app/view1/css/normalize.css",
+		"/Users/daniel/Github/Personal-Code/CV Resume Cover Letter/Cover Letters/SpaceX/Cover Letter.tex",
+		"/Users/daniel/Github/CRAWLAB-Code-Review/20180318_Newman_CraneAnimation/Readme.md",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/For_Presentation/BoomCrane/record_link_vibration.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/InitialCondition/pulse_vs_impulse_example.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/For_Presentation/crane_anim.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/BoomCrane/plot_3d_bc_pulse.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/For_Presentation/input_gen.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/For_Presentation/BoomCrane/overlay_videos.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/Concurrent/smooth_shaping.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/IC_Journal/plot_damped_impulse_variation.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Proposals/CV Resume Cover Letter/Cover Letters/SpaceX/Cover Letter.tex",
+		"/Users/daniel/Github/Personal-Code/CV Resume Cover Letter/Cover Letters/Blue Origin/Cover Letter.tex",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Proposals/CV Resume Cover Letter/Cover Letters/Blue Origin/Cover Letter.tex",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Proposals/CV Resume Cover Letter/Professional Resume/Latex/resume.pdf",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Proposals/CV Resume Cover Letter/Professional Resume/Latex/resume.tex",
+		"/Users/daniel/Github/Thesis-Notebooks/Styling/IpythonNotebook.css",
+		"/Users/daniel/Google Drive/MSME/ENGR 640/Reading Response/Measure/Measure.tex",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/Chapter_1/simple_crane_step.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Experimental_Hardware/Aerial_Lift/overlay_videos.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Python Modules/Class_Plots.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/For_Presentation/Sensitivity_Plots/sens.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/For_Presentation/simple_oscillator.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/For_Presentation/BoomCrane/BC_IC.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Animations/load_image.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/For_Presentation/nonzero_hoist.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Python Modules/si.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Korea/plot_exp_impulse_vs_sim.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/chapter6.tex",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/chapter2.tex",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/chapter5.tex",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/thesis.tex",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/Chapter_1/simple_crane_trapezoidal.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/BoomCrane/IC_Shaping.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/InitialCondition/impulse_vs_pulse.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/DisturbedBoomCrane/disturbed_IC.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/acknowledgements.tex",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/BoomCrane/Data/bc_imp_amp_low.txt",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/IC_Journal/Plot_Pulse_response.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Python Modules/kanes_2link.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/chapter1.tex",
+		"/Users/daniel/Google Drive/MSME/ENGR 640/Term Paper/simple_crane_step.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/dedication.tex",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/Concurrent/sensitivity_crane.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Cardiac Project/Control Review/Control_Review.tex",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/InitialCondition/Pulse_Response_Simulation.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/IC_Journal/boom_crane_IC.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/For_Presentation/examples.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/Concurrent/inertia_shaping.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/DisturbedBoomCrane/free_response.py",
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/InitialCondition/plot_sim_sens.py"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"lastnamefirstname",
+			"firsnamelastname",
+			"time domain design",
+			"figurename",
+			"caption",
+			"fig",
+			"figure",
+			"lastnamefirstname",
+			"acknowledgments",
+			"  ",
+			"dedication",
+			"step_response_approx",
+			"table",
+			"plot_data",
+			"transparent=True",
+			"TROLLEY_IMAGE",
+			"trolley_offset_Y",
+			"trolley_offset_x",
+			"mpl",
+			"plt",
+			"time",
+			"starttime",
+			";",
+			"sensplot",
+			"dual_plot",
+			"dual_label",
+			"theta",
+			"STEP_INPUT",
+			"compare_scatter",
+			"EI",
+			"ORIGN_OFFSET",
+			"second-order",
+			"the bode plot",
+			"highly damped",
+			"due to limited ",
+			"this crane consists",
+			"the S-Curve command almost",
+			"higher closed-loop",
+			"high mode",
+			"this discontinuous control",
+			"this discontinuous contorl input",
+			"this discontinuous",
+			"in fact, eliminating",
+			"this effect is evident",
+			"eq:LQRcost",
+			"eq:linss",
+			"eq:SI-IC",
+			"omega_n",
+			"omegan",
+			"omega_n",
+			"shiftedresponse",
+			"sec:model",
+			"Their responses at the designed",
+			"the data in this figure",
+			"lqr shaped response",
+			"$V_{max}$ by accelerating",
+			"V_{max} by accelerating",
+			"time optimal",
+			"time optimal solutions",
+			"its insensitivity of ",
+			"example shaped response",
+			"example response",
+			"is the disturbance frequency",
+			"while the ZV-LE shaper",
+			"opencv",
+			"serve as a small scale",
+			"the revised approximation",
+			"because the superposed approximation",
+			"deviates by",
+			"benchmark system experimental",
+			"plot_3d",
+			"barring",
+			"plot_3d",
+			"compare_scatter",
+			"the proposed shaping methods",
+			"regardless of the enforced",
+			"conversely, the amplitude",
+			"the expression for a",
+			"the general procedure",
+			"second order",
+			"to that of a linear",
+			"\\gamma_{dot}<",
+			"\\gamma_{dot} <",
+			"\\gamma_{dot} <<",
+			"the output from the plant",
+			"the ZV and EI",
+			"zero vibration derivative",
+			"second order",
+			"\\textcolor",
+			"zv_2mode",
+			"rejecting disturbances to",
+			"while neither",
+			"on the other hand",
+			"on the other hadn",
+			"if a maximum ",
+			"Figure.",
+			"    ",
+			"low_effort_shaper",
+			"zetas",
+			"omegas",
+			"zetas",
+			"omegas",
+			"seqconv",
+			"t_step",
+			"zetas",
+			"Omegas",
+			"linearize_system",
+			"\\frac{\\omega}{\\omega}",
+			"\\tau_{acc}",
+			"\\tau_acc",
+			"\\tauacc",
+			"this scaling factor is configur",
+			"the moderate nonlinearity",
+			"beating",
+			"as a result of the ",
+			"this zv shaper introduces approximately",
+			"this plot is consistent with the previous",
+			"resulting in a normalized insensitivity",
+			"for a shaper with specified insensitivity",
+			"the oscillation amplitude due to",
+			"this normalized acceleration time",
+			"if the shaped command and the reference",
+			"a sequence of impulses",
+			"because actuator bandwidth",
+			"the controller impulses",
+			"recently some research",
+			"Figs.",
+			"Fig."
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"zvic",
+			"siic_7",
+			"siic_6",
+			"siic_5",
+			"siic_4",
+			"siic_3",
+			"siic_2"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/thesis.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1450,
+								1450
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "/home/dnewman/Documents/Github/CRAWLAB-Student-Code",
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 342.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								357,
+								357
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template/UL_Lafayette_Template/ULL_thesis_template.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3992,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2329,
+								2329
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template",
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1368.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 134.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"project": "Catheter_2018.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 692.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 306.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
