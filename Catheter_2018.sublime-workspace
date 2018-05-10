@@ -520,27 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/thesis.tex",
+			"file": "/usr/share/X11/xorg.conf.d/70.synaptics.conf",
 			"settings":
 			{
-				"buffer_size": 3150,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template/README.md",
-			"settings":
-			{
-				"buffer_size": 358,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template/UL_Lafayette_Template/ULL_thesis_template.tex",
-			"settings":
-			{
-				"buffer_size": 3992,
+				"buffer_size": 3221,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -873,12 +856,16 @@
 	[
 		"/home/dnewman/Documents/Github/Catheter-Ablation",
 		"/home/dnewman/Documents/Github/Catheter-Ablation/code",
+		"/home/dnewman/Documents/Github/Catheter-Ablation/code/notebooks",
 		"/home/dnewman/Documents/Github/Catheter-Ablation/data",
-		"/home/dnewman/Documents/Github/Catheter-Ablation/manuscript",
 		"/home/dnewman/Documents/Github/Catheter-Ablation/results"
 	],
 	"file_history":
 	[
+		"/usr/share/X11/xorg.conf.d/70.synaptics.conf",
+		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/thesis.tex",
+		"/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template/UL_Lafayette_Template/ULL_thesis_template.tex",
+		"/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template/README.md",
 		"/home/dnewman/Documents/Github/Catheter-Ablation/README.md",
 		"/home/dnewman/Documents/Github/Catheter-Ablation/.gitignore",
 		"/home/dnewman/Documents/Github/Catheter-Ablation/manuscript/manuscript.tex",
@@ -887,7 +874,6 @@
 		"/home/dnewman/Documents/Github/Catheter-Ablation/results/README.md",
 		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/gatech-thesis.cls",
 		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/epigraph.tex",
-		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/thesis.tex",
 		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/ULL-style.sty",
 		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/chapter2.tex",
 		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/chapter3.tex",
@@ -899,7 +885,6 @@
 		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Conference Papers/ACC_RobustIC_2018/ACC_RobustIC_2018.tex",
 		"/home/dnewman/Documents/Github/Catheter-Ablation/code/mypackage/catheter_utils.py",
 		"/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template/UL_Lafayette_Template/chapter1.tex",
-		"/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template/UL_Lafayette_Template/ULL_thesis_template.tex",
 		"/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Conference Papers/CCTA - Nonzero Shaping Boom Crane - 2017/bibliography.bib",
 		"/home/dnewman/Documents/Github/Angular-Tinkering/Angular-test/app/view2/view2.html",
 		"/home/dnewman/Documents/Github/Catheter-Ablation/code/setup.py",
@@ -1004,9 +989,7 @@
 		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/InitialCondition/Pulse_Response_Simulation.py",
 		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/IC_Journal/boom_crane_IC.py",
 		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/For_Presentation/examples.py",
-		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/Concurrent/inertia_shaping.py",
-		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/DisturbedBoomCrane/free_response.py",
-		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/InitialCondition/plot_sim_sens.py"
+		"/Users/daniel/Github/CRAWLAB-Student-Code/Daniel Newman/Code/Paper_Simulations/Thesis/Concurrent/inertia_shaping.py"
 	],
 	"find":
 	{
@@ -1024,6 +1007,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" = ",
 			"lastnamefirstname",
 			"firsnamelastname",
 			"time domain design",
@@ -1150,8 +1134,7 @@
 			"because actuator bandwidth",
 			"the controller impulses",
 			"recently some research",
-			"Figs.",
-			"Fig."
+			"Figs."
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1176,94 +1159,37 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/dnewman/Documents/Github/CRAWLAB-Student-Code/Daniel Newman/Research/Working Documents/Thesis/Daniel_Thesis_2018/thesis.tex",
+					"file": "/usr/share/X11/xorg.conf.d/70.synaptics.conf",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3150,
+						"buffer_size": 3221,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1450,
-								1450
+								1172,
+								1172
 							]
 						],
 						"settings":
 						{
-							"git_savvy.repo_path": "/home/dnewman/Documents/Github/CRAWLAB-Student-Code",
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 342.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template/README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 358,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								357,
-								357
-							]
-						],
-						"settings":
-						{
-							"git_savvy.repo_path": "/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template",
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 228.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template/UL_Lafayette_Template/ULL_thesis_template.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3992,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2329,
-								2329
-							]
-						],
-						"settings":
-						{
-							"git_savvy.repo_path": "/home/dnewman/Documents/Github/UL-Lafayette-Thesis-Template",
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1368.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
