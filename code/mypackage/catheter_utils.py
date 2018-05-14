@@ -130,6 +130,7 @@ def derive_sys(n,p):
                 next_torque += Torque[j]
         else:
             next_torque = 0.
+            
         forces.append((Ai,(Torque[i] + next_torque) * Ai.z))
         
         # Add another internal spring
